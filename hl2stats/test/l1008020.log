@@ -1,0 +1,71 @@
+L 10/08/2005 - 16:21:51: Log file started (file "logs\L1008020.log") (game "d:\steam\steamapps\janiwe\source dedicated server\cstrike") (version "2516")
+L 10/08/2005 - 16:21:51: World triggered "Round_Start"
+L 10/08/2005 - 16:21:58: World triggered "Round_Start"
+L 10/08/2005 - 16:22:13: "INELUKI<5><STEAM_ID_LAN><>" entered the game
+L 10/08/2005 - 16:22:16: "Obelix<13><STEAM_ID_LAN><>" entered the game
+L 10/08/2005 - 16:22:30: "JaNiWe<14><STEAM_ID_LAN><>" entered the game
+L 10/08/2005 - 16:22:39: "kewl-deus<8><STEAM_ID_LAN><>" entered the game
+L 10/08/2005 - 16:22:40: "Neothorn<4><STEAM_ID_LAN><>" entered the game
+L 10/08/2005 - 16:23:31: "Neothorn<4><STEAM_ID_LAN><Unassigned>" disconnected (reason "Disconnect by user.")
+L 10/08/2005 - 16:23:31: World triggered "Round_Draw" (CT "0") (T "0")
+L 10/08/2005 - 16:23:31: Team "CT" scored "0" with "0" players
+L 10/08/2005 - 16:23:31: Team "TERRORIST" scored "0" with "0" players
+L 10/08/2005 - 16:23:31: World triggered "Round_End"
+L 10/08/2005 - 16:23:42: World triggered "Round_Start"
+L 10/08/2005 - 16:24:09: "JaNiWe<14><STEAM_ID_LAN><Unassigned>" joined team "TERRORIST"
+L 10/08/2005 - 16:24:09: "Keith<20><BOT><>" connected, address "none"
+L 10/08/2005 - 16:24:09: "Keith<20><BOT><Unassigned>" joined team "CT"
+L 10/08/2005 - 16:24:09: World triggered "Round_Draw" (CT "0") (T "0")
+L 10/08/2005 - 16:24:09: Team "CT" scored "0" with "1" players
+L 10/08/2005 - 16:24:09: Team "TERRORIST" scored "0" with "1" players
+L 10/08/2005 - 16:24:09: World triggered "Round_End"
+L 10/08/2005 - 16:24:09: "Keith<20><BOT><>" entered the game
+L 10/08/2005 - 16:24:09: World triggered "Game_Commencing"
+L 10/08/2005 - 16:24:12: "JaNiWe<14><STEAM_ID_LAN><TERRORIST>" triggered "Got_The_Bomb"
+L 10/08/2005 - 16:24:18: World triggered "Round_Start"
+L 10/08/2005 - 16:24:39: "Keith<20><BOT><CT>" attacked "JaNiWe<14><STEAM_ID_LAN><TERRORIST>" with "usp" (damage "15") (damage_armor "7") (health "85") (armor "92") (hitgroup "stomach")
+L 10/08/2005 - 16:24:40: "Keith<20><BOT><CT>" attacked "JaNiWe<14><STEAM_ID_LAN><TERRORIST>" with "usp" (damage "14") (damage_armor "7") (health "71") (armor "84") (hitgroup "stomach")
+L 10/08/2005 - 16:24:42: "Keith<20><BOT><CT>" attacked "JaNiWe<14><STEAM_ID_LAN><TERRORIST>" with "usp" (damage "15") (damage_armor "7") (health "56") (armor "76") (hitgroup "stomach")
+L 10/08/2005 - 16:24:43: "Keith<20><BOT><CT>" attacked "JaNiWe<14><STEAM_ID_LAN><TERRORIST>" with "usp" (damage "15") (damage_armor "7") (health "41") (armor "68") (hitgroup "stomach")
+L 10/08/2005 - 16:24:43: "Keith<20><BOT><CT>" attacked "JaNiWe<14><STEAM_ID_LAN><TERRORIST>" with "usp" (damage "12") (damage_armor "6") (health "29") (armor "61") (hitgroup "left arm")
+L 10/08/2005 - 16:24:43: "JaNiWe<14><STEAM_ID_LAN><TERRORIST>" attacked "Keith<20><BOT><CT>" with "glock" (damage "19") (damage_armor "0") (health "81") (armor "0") (hitgroup "left arm")
+L 10/08/2005 - 16:24:43: "Keith<20><BOT><CT>" attacked "JaNiWe<14><STEAM_ID_LAN><TERRORIST>" with "usp" (damage "12") (damage_armor "6") (health "17") (armor "54") (hitgroup "left arm")
+L 10/08/2005 - 16:24:44: "JaNiWe<14><STEAM_ID_LAN><TERRORIST>" attacked "Keith<20><BOT><CT>" with "glock" (damage "77") (damage_armor "0") (health "4") (armor "0") (hitgroup "head")
+L 10/08/2005 - 16:24:51: "JaNiWe<14><STEAM_ID_LAN><TERRORIST>" attacked "Keith<20><BOT><CT>" with "glock" (damage "20") (damage_armor "0") (health "0") (armor "0") (hitgroup "chest")
+L 10/08/2005 - 16:24:51: "JaNiWe<14><STEAM_ID_LAN><TERRORIST>" killed "Keith<20><BOT><CT>" with "glock"
+L 10/08/2005 - 16:24:51: Team "TERRORIST" triggered "Terrorists_Win" (CT "0") (T "1")
+L 10/08/2005 - 16:24:51: Team "CT" scored "0" with "1" players
+L 10/08/2005 - 16:24:51: Team "TERRORIST" scored "1" with "1" players
+L 10/08/2005 - 16:24:51: World triggered "Round_End"
+L 10/08/2005 - 16:24:56: "JaNiWe<14><STEAM_ID_LAN><TERRORIST>" triggered "Got_The_Bomb"
+L 10/08/2005 - 16:25:02: World triggered "Round_Start"
+L 10/08/2005 - 16:25:57: "JaNiWe<14><STEAM_ID_LAN><TERRORIST>" triggered "Planted_The_Bomb"
+L 10/08/2005 - 16:26:19: "Keith<20><BOT><CT>" triggered "Begin_Bomb_Defuse_With_Kit"
+L 10/08/2005 - 16:26:21: "JaNiWe<14><STEAM_ID_LAN><TERRORIST>" disconnected (reason "Disconnect by user.")
+L 10/08/2005 - 16:26:21: "Keith<20><BOT><CT>" disconnected (reason "Kicked by Console")
+L 10/08/2005 - 16:26:21: World triggered "Round_Draw" (CT "0") (T "1")
+L 10/08/2005 - 16:26:21: Team "CT" scored "0" with "0" players
+L 10/08/2005 - 16:26:21: Team "TERRORIST" scored "1" with "0" players
+L 10/08/2005 - 16:26:21: World triggered "Round_End"
+L 10/08/2005 - 16:26:31: "INELUKI<5><STEAM_ID_LAN><Unassigned>" joined team "CT"
+L 10/08/2005 - 16:26:31: "Ian<21><BOT><>" connected, address "none"
+L 10/08/2005 - 16:26:31: "Ian<21><BOT><Unassigned>" joined team "TERRORIST"
+L 10/08/2005 - 16:26:31: "Ian<21><BOT><TERRORIST>" triggered "Got_The_Bomb"
+L 10/08/2005 - 16:26:31: "Ian<21><BOT><>" entered the game
+L 10/08/2005 - 16:26:31: World triggered "Game_Commencing"
+L 10/08/2005 - 16:26:34: "Ian<21><BOT><TERRORIST>" triggered "Got_The_Bomb"
+L 10/08/2005 - 16:26:36: "Obelix<13><STEAM_ID_LAN><Unassigned>" joined team "CT"
+L 10/08/2005 - 16:26:38: "kewl-deus<8><STEAM_ID_LAN><Unassigned>" joined team "CT"
+L 10/08/2005 - 16:26:39: "INELUKI<5><STEAM_ID_LAN><CT>" disconnected (reason "Disconnect by user.")
+L 10/08/2005 - 16:26:40: World triggered "Round_Start"
+L 10/08/2005 - 16:26:40: "Obelix<13><STEAM_ID_LAN><CT>" disconnected (reason "Disconnect by user.")
+L 10/08/2005 - 16:26:51: "kewl-deus<8><STEAM_ID_LAN><CT>" disconnected (reason "Disconnect by user.")
+L 10/08/2005 - 16:26:51: "Ian<21><BOT><TERRORIST>" disconnected (reason "Kicked by Console")
+L 10/08/2005 - 16:26:51: "Ian<21><BOT><TERRORIST>" triggered "Dropped_The_Bomb"
+L 10/08/2005 - 16:26:51: World triggered "Round_Draw" (CT "0") (T "0")
+L 10/08/2005 - 16:26:51: Team "CT" scored "0" with "0" players
+L 10/08/2005 - 16:26:51: Team "TERRORIST" scored "0" with "0" players
+L 10/08/2005 - 16:26:51: World triggered "Round_End"
+L 10/08/2005 - 16:27:02: World triggered "Round_Start"
+L 10/08/2005 - 17:26:33: server_message: "quit"
+L 10/08/2005 - 17:26:33: Log file closed

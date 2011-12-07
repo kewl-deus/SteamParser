@@ -1,0 +1,1 @@
+javaw -cp WEB-INF\lib\hsqldb.jar;WEB-INF\lib\postgresql-8.0-313.jdbc3.jar;WEB-INF\classes cx.ath.janiwe.steamparser.Starter

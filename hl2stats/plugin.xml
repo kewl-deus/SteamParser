@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+
+   <extension
+         id="de.dengot.hl2stats.application"
+         point="org.eclipse.core.runtime.applications">
+      <application>
+         <run
+               class="de.dengot.hl2stats.HL2StatsApplication">
+         </run>
+      </application>
+   </extension>
+   <extension
+         point="org.eclipse.ui.perspectives">
+      <perspective
+            name="HL2Stats Perspective"
+            class="de.dengot.hl2stats.ui.HL2StatsPerspective"
+            id="de.dengot.hl2stats.ui.HL2StatsPerspective">
+      </perspective>
+   </extension>
+   <extension
+         point="org.eclipse.ui.views">
+      <view
+            name="Statistics Graph"
+            allowMultiple="true"
+            icon="icons/sample2.gif"
+            class="de.dengot.hl2stats.ui.ChartView"
+            id="de.dengot.hl2stats.ui.ChartView">
+      </view>
+      <view
+            name="Logfile Browser"
+            allowMultiple="false"
+            icon="icons/sample3.gif"
+            class="de.dengot.hl2stats.ui.LogfileBrowser"
+            id="de.dengot.hl2stats.ui.LogfileBrowser">
+      </view>
+      <view
+            allowMultiple="false"
+            class="de.dengot.hl2stats.ui.ChartConfigView"
+            icon="icons/sample.gif"
+            id="de.dengot.hl2stats.ui.ChartConfigView"
+            name="Chart Configuration"/>
+   </extension>
+   <extension
+         point="org.eclipse.ui.commands">
+      <category
+            name="HL2Stats"
+            id="de.dengot.hl2stats.category">
+      </category>
+      <command
+            name="Open"
+            description="Open"
+            categoryId="de.dengot.hl2stats.category"
+            id="de.dengot.hl2stats.open">
+      </command>
+      <command
+            categoryId="de.dengot.hl2stats.category"
+            description="Open a message dialog"
+            id="de.dengot.hl2stats.actions.ParseLogfile"
+            name="Open Message Dialog">
+      </command>
+   </extension>
+   <extension
+         point="org.eclipse.ui.bindings">
+      <key
+            commandId="de.dengot.hl2stats.open"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+            sequence="CTRL+2">
+      </key>
+      <key
+            commandId="de.dengot.hl2stats.actions.ParseLogfile"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+            sequence="CTRL+3">
+      </key>
+      <key
+            commandId="org.eclipse.ui.file.exit"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+            sequence="CTRL+X">
+      </key>
+   </extension>
+   <extension
+         id="de.dengot.hl2stats.product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="de.dengot.hl2stats.de.dengot.hl2stats.application"
+            name="HL2Log Visualizer">
+         <property
+               name="aboutText"
+               value="%aboutText">
+         </property>
+         <property
+               name="windowImages"
+               value="icons/sample2.gif">
+         </property>
+         <property
+               name="aboutImage"
+               value="product_lg.gif">
+         </property>
+      </product>
+   </extension>
+
+</plugin>

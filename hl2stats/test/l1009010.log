@@ -1,0 +1,24 @@
+L 10/09/2005 - 15:44:00: Log file started (file "logs\L1009010.log") (game "d:\steam\steamapps\janiwe\source dedicated server\cstrike") (version "2516")
+L 10/09/2005 - 15:44:00: "Obelix<10><STEAM_ID_LAN><>" disconnected (reason "Disconnect by user.")
+L 10/09/2005 - 15:44:00: World triggered "Round_Start"
+L 10/09/2005 - 15:44:06: World triggered "Round_Start"
+L 10/09/2005 - 15:44:30: "JaNiWe<8><STEAM_ID_LAN><>" entered the game
+L 10/09/2005 - 15:44:33: "kewl-deus<4><STEAM_ID_LAN><>" entered the game
+L 10/09/2005 - 15:44:35: "Neothorn<11><STEAM_ID_LAN><>" entered the game
+L 10/09/2005 - 15:44:44: "JaNiWe<8><STEAM_ID_LAN><Unassigned>" joined team "TERRORIST"
+L 10/09/2005 - 15:44:44: "kewl-deus<4><STEAM_ID_LAN><Unassigned>" joined team "CT"
+L 10/09/2005 - 15:44:44: World triggered "Game_Commencing"
+L 10/09/2005 - 15:44:44: "Neothorn<11><STEAM_ID_LAN><Unassigned>" joined team "CT"
+L 10/09/2005 - 15:44:48: "kewl-deus<4><STEAM_ID_LAN><CT>" disconnected (reason "Disconnect by user.")
+L 10/09/2005 - 15:44:49: "JaNiWe<8><STEAM_ID_LAN><TERRORIST>" disconnected (reason "Disconnect by user.")
+L 10/09/2005 - 15:44:52: "Neothorn<11><STEAM_ID_LAN><CT>" disconnected (reason "Disconnect by user.")
+L 10/09/2005 - 15:44:52: World triggered "Round_Draw" (CT "0") (T "0")
+L 10/09/2005 - 15:44:52: Team "CT" scored "0" with "0" players
+L 10/09/2005 - 15:44:52: Team "TERRORIST" scored "0" with "0" players
+L 10/09/2005 - 15:44:52: World triggered "Round_End"
+L 10/09/2005 - 15:44:53: World triggered "Round_Start"
+L 10/09/2005 - 15:45:02: "=)Starship(=<3><STEAM_ID_LAN><>" entered the game
+L 10/09/2005 - 15:45:03: World triggered "Round_Start"
+L 10/09/2005 - 15:46:49: "=)Starship(=<3><STEAM_ID_LAN><>" disconnected (reason "Server shutting down")
+L 10/09/2005 - 15:46:49: server_message: "quit"
+L 10/09/2005 - 15:46:49: Log file closed

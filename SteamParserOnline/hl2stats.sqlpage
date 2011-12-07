@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SQLPage nameConnection="hl2stats">
+<Statement><![CDATA[create or replace view v_sessionstats_allplayers as
+	select ps.name, ps.gamestarted, ps.gamestopped, coalesce(k.kills,0) as kills_in_session,
+	coalesce(d.deaths,0) as deaths_in_session, coalesce(h.headshots,0) as headshots_in_session,
+	(coalesce(k.kills,0) - coalesce(d.deaths,0)) as frags_in_session,
+	(coalesce(k.kills,0) - coalesce(h.headshots,0)) as nonheadshots_in_session
+	from
+	(select s.id, s.gamestarted, s.gamestopped, p.name from t_session s, t_player p) ps
+	left join
+	(select attacker, gamesession, count(attacker) as kills
+	from t_kill group by attacker, gamesession) k on ((ps.name = k.attacker) and (ps.id = k.gamesession))
+	left join
+	(select victim, gamesession, count(victim) as deaths
+	from t_kill group by victim, gamesession) d on ((ps.name = d.victim) and (ps.id = d.gamesession))
+	left join
+	(select attacker, gamesession, count(attacker) as headshots
+	from t_kill where headshot = B'1'
+	group by attacker, gamesession) h on ((ps.name = h.attacker) and (ps.id = h.gamesession))
+	order by ps.gamestarted, kills_in_session desc, ps.name;]]></Statement>
+</SQLPage>

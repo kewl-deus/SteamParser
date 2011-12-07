@@ -1,0 +1,157 @@
+L 10/08/2005 - 01:29:01: Log file started (file "logs\L1008003.log") (game "d:\steam\steamapps\janiwe\source dedicated server\cstrike") (version "2516")
+L 10/08/2005 - 01:29:01: World triggered "Round_Start"
+L 10/08/2005 - 01:29:07: World triggered "Round_Start"
+L 10/08/2005 - 01:29:23: "INELUKI<6><STEAM_ID_LAN><>" entered the game
+L 10/08/2005 - 01:29:25: "Obelix<8><STEAM_ID_LAN><>" entered the game
+L 10/08/2005 - 01:29:28: "Neothorn<2><STEAM_ID_LAN><>" entered the game
+L 10/08/2005 - 01:29:29: "kewl-deus<3><STEAM_ID_LAN><>" entered the game
+L 10/08/2005 - 01:29:32: "JaNiWe<4><STEAM_ID_LAN><>" entered the game
+L 10/08/2005 - 01:29:38: "kewl-deus<3><STEAM_ID_LAN><Unassigned>" joined team "CT"
+L 10/08/2005 - 01:29:39: "INELUKI<6><STEAM_ID_LAN><Unassigned>" joined team "TERRORIST"
+L 10/08/2005 - 01:29:39: World triggered "Game_Commencing"
+L 10/08/2005 - 01:29:43: "Neothorn<2><STEAM_ID_LAN><Unassigned>" joined team "TERRORIST"
+L 10/08/2005 - 01:29:48: "Obelix<8><STEAM_ID_LAN><Unassigned>" joined team "TERRORIST"
+L 10/08/2005 - 01:29:49: World triggered "Round_Start"
+L 10/08/2005 - 01:30:12: "kewl-deus<3><STEAM_ID_LAN><CT>" attacked "Obelix<8><STEAM_ID_LAN><TERRORIST>" with "deagle" (damage "48") (damage_armor "0") (health "52") (armor "0") (hitgroup "right arm")
+L 10/08/2005 - 01:30:12: "Obelix<8><STEAM_ID_LAN><TERRORIST>" attacked "kewl-deus<3><STEAM_ID_LAN><CT>" with "deagle" (damage "37") (damage_armor "0") (health "63") (armor "0") (hitgroup "left leg")
+L 10/08/2005 - 01:30:12: "Obelix<8><STEAM_ID_LAN><TERRORIST>" attacked "kewl-deus<3><STEAM_ID_LAN><CT>" with "deagle" (damage "37") (damage_armor "0") (health "26") (armor "0") (hitgroup "left leg")
+L 10/08/2005 - 01:30:12: "kewl-deus<3><STEAM_ID_LAN><CT>" attacked "Obelix<8><STEAM_ID_LAN><TERRORIST>" with "deagle" (damage "49") (damage_armor "0") (health "3") (armor "0") (hitgroup "chest")
+L 10/08/2005 - 01:30:12: "Obelix<8><STEAM_ID_LAN><TERRORIST>" attacked "kewl-deus<3><STEAM_ID_LAN><CT>" with "deagle" (damage "50") (damage_armor "0") (health "0") (armor "0") (hitgroup "left arm")
+L 10/08/2005 - 01:30:12: "Obelix<8><STEAM_ID_LAN><TERRORIST>" killed "kewl-deus<3><STEAM_ID_LAN><CT>" with "deagle"
+L 10/08/2005 - 01:30:12: Team "TERRORIST" triggered "Terrorists_Win" (CT "0") (T "1")
+L 10/08/2005 - 01:30:12: Team "CT" scored "0" with "1" players
+L 10/08/2005 - 01:30:12: Team "TERRORIST" scored "1" with "3" players
+L 10/08/2005 - 01:30:12: World triggered "Round_End"
+L 10/08/2005 - 01:30:23: World triggered "Round_Start"
+L 10/08/2005 - 01:30:42: "Obelix<8><STEAM_ID_LAN><TERRORIST>" attacked "kewl-deus<3><STEAM_ID_LAN><CT>" with "deagle" (damage "26") (damage_armor "0") (health "74") (armor "0") (hitgroup "right leg")
+L 10/08/2005 - 01:30:43: "Obelix<8><STEAM_ID_LAN><TERRORIST>" attacked "kewl-deus<3><STEAM_ID_LAN><CT>" with "deagle" (damage "36") (damage_armor "0") (health "38") (armor "0") (hitgroup "chest")
+L 10/08/2005 - 01:30:47: "Neothorn<2><STEAM_ID_LAN><TERRORIST>" attacked "kewl-deus<3><STEAM_ID_LAN><CT>" with "ak47" (damage "25") (damage_armor "0") (health "13") (armor "0") (hitgroup "left leg")
+L 10/08/2005 - 01:30:47: "kewl-deus<3><STEAM_ID_LAN><CT>" attacked "Neothorn<2><STEAM_ID_LAN><TERRORIST>" with "deagle" (damage "20") (damage_armor "3") (health "80") (armor "96") (hitgroup "chest")
+L 10/08/2005 - 01:30:47: "Obelix<8><STEAM_ID_LAN><TERRORIST>" attacked "kewl-deus<3><STEAM_ID_LAN><CT>" with "deagle" (damage "41") (damage_armor "0") (health "0") (armor "0") (hitgroup "stomach")
+L 10/08/2005 - 01:30:47: "Obelix<8><STEAM_ID_LAN><TERRORIST>" killed "kewl-deus<3><STEAM_ID_LAN><CT>" with "deagle"
+L 10/08/2005 - 01:30:47: Team "TERRORIST" triggered "Terrorists_Win" (CT "0") (T "2")
+L 10/08/2005 - 01:30:47: Team "CT" scored "0" with "1" players
+L 10/08/2005 - 01:30:47: Team "TERRORIST" scored "2" with "3" players
+L 10/08/2005 - 01:30:47: World triggered "Round_End"
+L 10/08/2005 - 01:30:58: World triggered "Round_Start"
+L 10/08/2005 - 01:31:17: "Obelix<8><STEAM_ID_LAN><TERRORIST>" attacked "kewl-deus<3><STEAM_ID_LAN><CT>" with "deagle" (damage "211") (damage_armor "0") (health "0") (armor "0") (hitgroup "head")
+L 10/08/2005 - 01:31:17: "Obelix<8><STEAM_ID_LAN><TERRORIST>" killed "kewl-deus<3><STEAM_ID_LAN><CT>" with "deagle" (headshot)
+L 10/08/2005 - 01:31:17: Team "TERRORIST" triggered "Terrorists_Win" (CT "0") (T "3")
+L 10/08/2005 - 01:31:17: Team "CT" scored "0" with "1" players
+L 10/08/2005 - 01:31:17: Team "TERRORIST" scored "3" with "3" players
+L 10/08/2005 - 01:31:17: World triggered "Round_End"
+L 10/08/2005 - 01:31:28: World triggered "Round_Start"
+L 10/08/2005 - 01:31:50: "kewl-deus<3><STEAM_ID_LAN><CT>" attacked "Neothorn<2><STEAM_ID_LAN><TERRORIST>" with "deagle" (damage "26") (damage_armor "4") (health "74") (armor "95") (hitgroup "left arm")
+L 10/08/2005 - 01:31:50: "Neothorn<2><STEAM_ID_LAN><TERRORIST>" attacked "kewl-deus<3><STEAM_ID_LAN><CT>" with "ak47" (damage "137") (damage_armor "0") (health "0") (armor "0") (hitgroup "head")
+L 10/08/2005 - 01:31:50: "Neothorn<2><STEAM_ID_LAN><TERRORIST>" killed "kewl-deus<3><STEAM_ID_LAN><CT>" with "ak47" (headshot)
+L 10/08/2005 - 01:31:50: Team "TERRORIST" triggered "Terrorists_Win" (CT "0") (T "4")
+L 10/08/2005 - 01:31:50: Team "CT" scored "0" with "1" players
+L 10/08/2005 - 01:31:50: Team "TERRORIST" scored "4" with "3" players
+L 10/08/2005 - 01:31:50: World triggered "Round_End"
+L 10/08/2005 - 01:32:00: "JaNiWe<4><STEAM_ID_LAN><Unassigned>" joined team "CT"
+L 10/08/2005 - 01:32:01: World triggered "Round_Start"
+L 10/08/2005 - 01:32:12: "Obelix<8><STEAM_ID_LAN><TERRORIST>" attacked "kewl-deus<3><STEAM_ID_LAN><CT>" with "m3" (damage "21") (damage_armor "0") (health "79") (armor "0") (hitgroup "right arm")
+L 10/08/2005 - 01:32:12: "Obelix<8><STEAM_ID_LAN><TERRORIST>" attacked "kewl-deus<3><STEAM_ID_LAN><CT>" with "m3" (damage "21") (damage_armor "0") (health "58") (armor "0") (hitgroup "chest")
+L 10/08/2005 - 01:32:12: "Obelix<8><STEAM_ID_LAN><TERRORIST>" attacked "kewl-deus<3><STEAM_ID_LAN><CT>" with "m3" (damage "21") (damage_armor "0") (health "37") (armor "0") (hitgroup "right arm")
+L 10/08/2005 - 01:32:12: "Obelix<8><STEAM_ID_LAN><TERRORIST>" attacked "kewl-deus<3><STEAM_ID_LAN><CT>" with "m3" (damage "21") (damage_armor "0") (health "16") (armor "0") (hitgroup "chest")
+L 10/08/2005 - 01:32:12: "Obelix<8><STEAM_ID_LAN><TERRORIST>" attacked "kewl-deus<3><STEAM_ID_LAN><CT>" with "m3" (damage "26") (damage_armor "0") (health "0") (armor "0") (hitgroup "stomach")
+L 10/08/2005 - 01:32:12: "Obelix<8><STEAM_ID_LAN><TERRORIST>" killed "kewl-deus<3><STEAM_ID_LAN><CT>" with "m3"
+L 10/08/2005 - 01:32:21: "JaNiWe<4><STEAM_ID_LAN><CT>" attacked "Obelix<8><STEAM_ID_LAN><TERRORIST>" with "deagle" (damage "34") (damage_armor "5") (health "66") (armor "94") (hitgroup "chest")
+L 10/08/2005 - 01:32:22: "JaNiWe<4><STEAM_ID_LAN><CT>" attacked "Obelix<8><STEAM_ID_LAN><TERRORIST>" with "deagle" (damage "9") (damage_armor "1") (health "57") (armor "92") (hitgroup "stomach")
+L 10/08/2005 - 01:32:22: "JaNiWe<4><STEAM_ID_LAN><CT>" attacked "Obelix<8><STEAM_ID_LAN><TERRORIST>" with "deagle" (damage "9") (damage_armor "1") (health "48") (armor "90") (hitgroup "stomach")
+L 10/08/2005 - 01:32:22: "Obelix<8><STEAM_ID_LAN><TERRORIST>" attacked "JaNiWe<4><STEAM_ID_LAN><CT>" with "m3" (damage "15") (damage_armor "0") (health "85") (armor "0") (hitgroup "right leg")
+L 10/08/2005 - 01:32:22: "Obelix<8><STEAM_ID_LAN><TERRORIST>" attacked "JaNiWe<4><STEAM_ID_LAN><CT>" with "m3" (damage "15") (damage_armor "0") (health "70") (armor "0") (hitgroup "right leg")
+L 10/08/2005 - 01:32:22: "Obelix<8><STEAM_ID_LAN><TERRORIST>" attacked "JaNiWe<4><STEAM_ID_LAN><CT>" with "m3" (damage "15") (damage_armor "0") (health "55") (armor "0") (hitgroup "right leg")
+L 10/08/2005 - 01:32:22: "Obelix<8><STEAM_ID_LAN><TERRORIST>" attacked "JaNiWe<4><STEAM_ID_LAN><CT>" with "m3" (damage "21") (damage_armor "0") (health "34") (armor "0") (hitgroup "right arm")
+L 10/08/2005 - 01:32:22: "Obelix<8><STEAM_ID_LAN><TERRORIST>" attacked "JaNiWe<4><STEAM_ID_LAN><CT>" with "m3" (damage "15") (damage_armor "0") (health "19") (armor "0") (hitgroup "right leg")
+L 10/08/2005 - 01:32:22: "JaNiWe<4><STEAM_ID_LAN><CT>" attacked "Obelix<8><STEAM_ID_LAN><TERRORIST>" with "deagle" (damage "34") (damage_armor "0") (health "14") (armor "90") (hitgroup "left leg")
+L 10/08/2005 - 01:32:31: "Obelix<8><STEAM_ID_LAN><TERRORIST>" attacked "JaNiWe<4><STEAM_ID_LAN><CT>" with "m4a1" (damage "32") (damage_armor "0") (health "0") (armor "0") (hitgroup "left arm")
+L 10/08/2005 - 01:32:31: "Obelix<8><STEAM_ID_LAN><TERRORIST>" killed "JaNiWe<4><STEAM_ID_LAN><CT>" with "m4a1"
+L 10/08/2005 - 01:32:31: Team "TERRORIST" triggered "Terrorists_Win" (CT "0") (T "5")
+L 10/08/2005 - 01:32:31: Team "CT" scored "0" with "2" players
+L 10/08/2005 - 01:32:31: Team "TERRORIST" scored "5" with "3" players
+L 10/08/2005 - 01:32:31: World triggered "Round_End"
+L 10/08/2005 - 01:32:42: World triggered "Round_Start"
+L 10/08/2005 - 01:32:50: "Obelix<8><STEAM_ID_LAN><TERRORIST>" attacked "JaNiWe<4><STEAM_ID_LAN><CT>" with "m4a1" (damage "21") (damage_armor "4") (health "79") (armor "95") (hitgroup "chest")
+L 10/08/2005 - 01:32:50: "JaNiWe<4><STEAM_ID_LAN><CT>" attacked "Obelix<8><STEAM_ID_LAN><TERRORIST>" with "mp5navy" (damage "10") (damage_armor "5") (health "90") (armor "84") (hitgroup "right arm")
+L 10/08/2005 - 01:32:50: "Obelix<8><STEAM_ID_LAN><TERRORIST>" attacked "JaNiWe<4><STEAM_ID_LAN><CT>" with "m4a1" (damage "23") (damage_armor "0") (health "56") (armor "95") (hitgroup "left leg")
+L 10/08/2005 - 01:32:50: "JaNiWe<4><STEAM_ID_LAN><CT>" attacked "Obelix<8><STEAM_ID_LAN><TERRORIST>" with "mp5navy" (damage "41") (damage_armor "20") (health "49") (armor "63") (hitgroup "head")
+L 10/08/2005 - 01:32:50: "Obelix<8><STEAM_ID_LAN><TERRORIST>" attacked "JaNiWe<4><STEAM_ID_LAN><CT>" with "m4a1" (damage "23") (damage_armor "0") (health "33") (armor "95") (hitgroup "left leg")
+L 10/08/2005 - 01:32:50: "Obelix<8><STEAM_ID_LAN><TERRORIST>" attacked "JaNiWe<4><STEAM_ID_LAN><CT>" with "m4a1" (damage "21") (damage_armor "4") (health "12") (armor "90") (hitgroup "left arm")
+L 10/08/2005 - 01:32:51: "Obelix<8><STEAM_ID_LAN><TERRORIST>" attacked "JaNiWe<4><STEAM_ID_LAN><CT>" with "m4a1" (damage "21") (damage_armor "4") (health "0") (armor "85") (hitgroup "chest")
+L 10/08/2005 - 01:32:51: "Obelix<8><STEAM_ID_LAN><TERRORIST>" killed "JaNiWe<4><STEAM_ID_LAN><CT>" with "m4a1"
+L 10/08/2005 - 01:32:51: "Obelix<8><STEAM_ID_LAN><TERRORIST>" attacked "kewl-deus<3><STEAM_ID_LAN><CT>" with "m4a1" (damage "123") (damage_armor "0") (health "0") (armor "0") (hitgroup "head")
+L 10/08/2005 - 01:32:51: "Obelix<8><STEAM_ID_LAN><TERRORIST>" killed "kewl-deus<3><STEAM_ID_LAN><CT>" with "m4a1" (headshot)
+L 10/08/2005 - 01:32:51: Team "TERRORIST" triggered "Terrorists_Win" (CT "0") (T "6")
+L 10/08/2005 - 01:32:51: Team "CT" scored "0" with "2" players
+L 10/08/2005 - 01:32:51: Team "TERRORIST" scored "6" with "3" players
+L 10/08/2005 - 01:32:51: World triggered "Round_End"
+L 10/08/2005 - 01:33:03: World triggered "Round_Start"
+L 10/08/2005 - 01:33:24: "Neothorn<2><STEAM_ID_LAN><TERRORIST>" attacked "kewl-deus<3><STEAM_ID_LAN><CT>" with "ak47" (damage "35") (damage_armor "0") (health "65") (armor "0") (hitgroup "chest")
+L 10/08/2005 - 01:33:24: "Neothorn<2><STEAM_ID_LAN><TERRORIST>" attacked "kewl-deus<3><STEAM_ID_LAN><CT>" with "ak47" (damage "35") (damage_armor "0") (health "30") (armor "0") (hitgroup "right arm")
+L 10/08/2005 - 01:33:24: "Neothorn<2><STEAM_ID_LAN><TERRORIST>" attacked "kewl-deus<3><STEAM_ID_LAN><CT>" with "ak47" (damage "143") (damage_armor "0") (health "0") (armor "0") (hitgroup "head")
+L 10/08/2005 - 01:33:24: "Neothorn<2><STEAM_ID_LAN><TERRORIST>" killed "kewl-deus<3><STEAM_ID_LAN><CT>" with "ak47" (headshot)
+L 10/08/2005 - 01:33:24: "JaNiWe<4><STEAM_ID_LAN><CT>" attacked "Obelix<8><STEAM_ID_LAN><TERRORIST>" with "deagle" (damage "43") (damage_armor "7") (health "57") (armor "55") (hitgroup "stomach")
+L 10/08/2005 - 01:33:25: "Obelix<8><STEAM_ID_LAN><TERRORIST>" attacked "JaNiWe<4><STEAM_ID_LAN><CT>" with "m4a1" (damage "22") (damage_armor "4") (health "78") (armor "95") (hitgroup "right arm")
+L 10/08/2005 - 01:33:25: "Obelix<8><STEAM_ID_LAN><TERRORIST>" attacked "JaNiWe<4><STEAM_ID_LAN><CT>" with "m4a1" (damage "22") (damage_armor "4") (health "56") (armor "90") (hitgroup "chest")
+L 10/08/2005 - 01:33:25: "Obelix<8><STEAM_ID_LAN><TERRORIST>" attacked "JaNiWe<4><STEAM_ID_LAN><CT>" with "m4a1" (damage "90") (damage_armor "19") (health "0") (armor "70") (hitgroup "head")
+L 10/08/2005 - 01:33:25: "Obelix<8><STEAM_ID_LAN><TERRORIST>" killed "JaNiWe<4><STEAM_ID_LAN><CT>" with "m4a1" (headshot)
+L 10/08/2005 - 01:33:25: Team "TERRORIST" triggered "Terrorists_Win" (CT "0") (T "7")
+L 10/08/2005 - 01:33:25: Team "CT" scored "0" with "2" players
+L 10/08/2005 - 01:33:25: Team "TERRORIST" scored "7" with "3" players
+L 10/08/2005 - 01:33:25: World triggered "Round_End"
+L 10/08/2005 - 01:33:36: World triggered "Round_Start"
+L 10/08/2005 - 01:33:49: "Obelix<8><STEAM_ID_LAN><TERRORIST>" attacked "JaNiWe<4><STEAM_ID_LAN><CT>" with "m4a1" (damage "23") (damage_armor "0") (health "77") (armor "100") (hitgroup "left leg")
+L 10/08/2005 - 01:33:50: "Obelix<8><STEAM_ID_LAN><TERRORIST>" attacked "kewl-deus<3><STEAM_ID_LAN><CT>" with "m4a1" (damage "31") (damage_armor "0") (health "69") (armor "0") (hitgroup "chest")
+L 10/08/2005 - 01:33:50: "Obelix<8><STEAM_ID_LAN><TERRORIST>" attacked "kewl-deus<3><STEAM_ID_LAN><CT>" with "m4a1" (damage "30") (damage_armor "0") (health "39") (armor "0") (hitgroup "head")
+L 10/08/2005 - 01:33:51: "Obelix<8><STEAM_ID_LAN><TERRORIST>" attacked "JaNiWe<4><STEAM_ID_LAN><CT>" with "m4a1" (damage "24") (damage_armor "0") (health "53") (armor "100") (hitgroup "left leg")
+L 10/08/2005 - 01:33:51: "Obelix<8><STEAM_ID_LAN><TERRORIST>" attacked "kewl-deus<3><STEAM_ID_LAN><CT>" with "m4a1" (damage "15") (damage_armor "0") (health "24") (armor "0") (hitgroup "chest")
+L 10/08/2005 - 01:33:51: "Obelix<8><STEAM_ID_LAN><TERRORIST>" attacked "JaNiWe<4><STEAM_ID_LAN><CT>" with "m4a1" (damage "28") (damage_armor "6") (health "25") (armor "93") (hitgroup "stomach")
+L 10/08/2005 - 01:33:51: "Obelix<8><STEAM_ID_LAN><TERRORIST>" attacked "JaNiWe<4><STEAM_ID_LAN><CT>" with "m4a1" (damage "24") (damage_armor "0") (health "1") (armor "93") (hitgroup "right leg")
+L 10/08/2005 - 01:33:51: "Obelix<8><STEAM_ID_LAN><TERRORIST>" attacked "JaNiWe<4><STEAM_ID_LAN><CT>" with "m4a1" (damage "22") (damage_armor "4") (health "0") (armor "88") (hitgroup "left arm")
+L 10/08/2005 - 01:33:51: "Obelix<8><STEAM_ID_LAN><TERRORIST>" killed "JaNiWe<4><STEAM_ID_LAN><CT>" with "m4a1"
+L 10/08/2005 - 01:33:58: "Neothorn<2><STEAM_ID_LAN><TERRORIST>" attacked "INELUKI<6><STEAM_ID_LAN><TERRORIST>" with "ak47" (damage "9") (damage_armor "0") (health "91") (armor "100") (hitgroup "right leg")
+L 10/08/2005 - 01:33:58: "Neothorn<2><STEAM_ID_LAN><TERRORIST>" attacked "INELUKI<6><STEAM_ID_LAN><TERRORIST>" with "ak47" (damage "9") (damage_armor "1") (health "82") (armor "98") (hitgroup "right arm")
+L 10/08/2005 - 01:33:59: "Obelix<8><STEAM_ID_LAN><TERRORIST>" attacked "kewl-deus<3><STEAM_ID_LAN><CT>" with "m4a1" (damage "31") (damage_armor "0") (health "0") (armor "0") (hitgroup "left arm")
+L 10/08/2005 - 01:33:59: "Obelix<8><STEAM_ID_LAN><TERRORIST>" killed "kewl-deus<3><STEAM_ID_LAN><CT>" with "m4a1"
+L 10/08/2005 - 01:33:59: Team "TERRORIST" triggered "Terrorists_Win" (CT "0") (T "8")
+L 10/08/2005 - 01:33:59: Team "CT" scored "0" with "2" players
+L 10/08/2005 - 01:33:59: Team "TERRORIST" scored "8" with "3" players
+L 10/08/2005 - 01:33:59: World triggered "Round_End"
+L 10/08/2005 - 01:34:11: World triggered "Round_Start"
+L 10/08/2005 - 01:34:21: "JaNiWe<4><STEAM_ID_LAN><CT>" attacked "Neothorn<2><STEAM_ID_LAN><TERRORIST>" with "xm1014" (damage "14") (damage_armor "0") (health "86") (armor "100") (hitgroup "right leg")
+L 10/08/2005 - 01:34:21: "JaNiWe<4><STEAM_ID_LAN><CT>" attacked "Neothorn<2><STEAM_ID_LAN><TERRORIST>" with "xm1014" (damage "14") (damage_armor "0") (health "72") (armor "100") (hitgroup "right leg")
+L 10/08/2005 - 01:34:21: "Neothorn<2><STEAM_ID_LAN><TERRORIST>" attacked "JaNiWe<4><STEAM_ID_LAN><CT>" with "ak47" (damage "34") (damage_armor "0") (health "66") (armor "0") (hitgroup "chest")
+L 10/08/2005 - 01:34:22: "Neothorn<2><STEAM_ID_LAN><TERRORIST>" attacked "JaNiWe<4><STEAM_ID_LAN><CT>" with "ak47" (damage "34") (damage_armor "0") (health "32") (armor "0") (hitgroup "left arm")
+L 10/08/2005 - 01:34:22: "JaNiWe<4><STEAM_ID_LAN><CT>" attacked "Neothorn<2><STEAM_ID_LAN><TERRORIST>" with "xm1014" (damage "9") (damage_armor "4") (health "63") (armor "95") (hitgroup "chest")
+L 10/08/2005 - 01:34:22: "JaNiWe<4><STEAM_ID_LAN><CT>" attacked "Neothorn<2><STEAM_ID_LAN><TERRORIST>" with "xm1014" (damage "9") (damage_armor "4") (health "54") (armor "90") (hitgroup "chest")
+L 10/08/2005 - 01:34:22: "JaNiWe<4><STEAM_ID_LAN><CT>" attacked "Neothorn<2><STEAM_ID_LAN><TERRORIST>" with "xm1014" (damage "37") (damage_armor "18") (health "17") (armor "71") (hitgroup "head")
+L 10/08/2005 - 01:34:22: "JaNiWe<4><STEAM_ID_LAN><CT>" attacked "Neothorn<2><STEAM_ID_LAN><TERRORIST>" with "xm1014" (damage "11") (damage_armor "5") (health "6") (armor "65") (hitgroup "stomach")
+L 10/08/2005 - 01:34:22: "Neothorn<2><STEAM_ID_LAN><TERRORIST>" attacked "JaNiWe<4><STEAM_ID_LAN><CT>" with "ak47" (damage "34") (damage_armor "0") (health "0") (armor "0") (hitgroup "chest")
+L 10/08/2005 - 01:34:22: "Neothorn<2><STEAM_ID_LAN><TERRORIST>" killed "JaNiWe<4><STEAM_ID_LAN><CT>" with "ak47"
+L 10/08/2005 - 01:34:24: "Neothorn<2><STEAM_ID_LAN><TERRORIST>" attacked "kewl-deus<3><STEAM_ID_LAN><CT>" with "ak47" (damage "35") (damage_armor "0") (health "65") (armor "0") (hitgroup "left arm")
+L 10/08/2005 - 01:34:24: "Neothorn<2><STEAM_ID_LAN><TERRORIST>" attacked "kewl-deus<3><STEAM_ID_LAN><CT>" with "ak47" (damage "26") (damage_armor "0") (health "39") (armor "0") (hitgroup "left leg")
+L 10/08/2005 - 01:34:24: "kewl-deus<3><STEAM_ID_LAN><CT>" attacked "Neothorn<2><STEAM_ID_LAN><TERRORIST>" with "xm1014" (damage "9") (damage_armor "4") (health "0") (armor "60") (hitgroup "right arm")
+L 10/08/2005 - 01:34:24: "kewl-deus<3><STEAM_ID_LAN><CT>" killed "Neothorn<2><STEAM_ID_LAN><TERRORIST>" with "xm1014"
+L 10/08/2005 - 01:34:24: "INELUKI<6><STEAM_ID_LAN><TERRORIST>" attacked "kewl-deus<3><STEAM_ID_LAN><CT>" with "ak47" (damage "44") (damage_armor "0") (health "0") (armor "0") (hitgroup "stomach")
+L 10/08/2005 - 01:34:24: "INELUKI<6><STEAM_ID_LAN><TERRORIST>" killed "kewl-deus<3><STEAM_ID_LAN><CT>" with "ak47"
+L 10/08/2005 - 01:34:24: Team "TERRORIST" triggered "Terrorists_Win" (CT "0") (T "9")
+L 10/08/2005 - 01:34:24: Team "CT" scored "0" with "2" players
+L 10/08/2005 - 01:34:24: Team "TERRORIST" scored "9" with "3" players
+L 10/08/2005 - 01:34:24: World triggered "Round_End"
+L 10/08/2005 - 01:34:35: World triggered "Round_Start"
+L 10/08/2005 - 01:34:46: "INELUKI<6><STEAM_ID_LAN><TERRORIST>" attacked "JaNiWe<4><STEAM_ID_LAN><CT>" with "ak47" (damage "34") (damage_armor "4") (health "66") (armor "95") (hitgroup "stomach")
+L 10/08/2005 - 01:34:47: "INELUKI<6><STEAM_ID_LAN><TERRORIST>" attacked "JaNiWe<4><STEAM_ID_LAN><CT>" with "ak47" (damage "27") (damage_armor "3") (health "39") (armor "91") (hitgroup "chest")
+L 10/08/2005 - 01:34:47: "INELUKI<6><STEAM_ID_LAN><TERRORIST>" attacked "JaNiWe<4><STEAM_ID_LAN><CT>" with "ak47" (damage "27") (damage_armor "3") (health "12") (armor "87") (hitgroup "chest")
+L 10/08/2005 - 01:34:47: "INELUKI<6><STEAM_ID_LAN><TERRORIST>" attacked "JaNiWe<4><STEAM_ID_LAN><CT>" with "ak47" (damage "34") (damage_armor "4") (health "0") (armor "82") (hitgroup "stomach")
+L 10/08/2005 - 01:34:47: "INELUKI<6><STEAM_ID_LAN><TERRORIST>" killed "JaNiWe<4><STEAM_ID_LAN><CT>" with "ak47"
+L 10/08/2005 - 01:34:50: "INELUKI<6><STEAM_ID_LAN><TERRORIST>" attacked "kewl-deus<3><STEAM_ID_LAN><CT>" with "ak47" (damage "43") (damage_armor "0") (health "57") (armor "0") (hitgroup "stomach")
+L 10/08/2005 - 01:34:50: "INELUKI<6><STEAM_ID_LAN><TERRORIST>" attacked "kewl-deus<3><STEAM_ID_LAN><CT>" with "ak47" (damage "43") (damage_armor "0") (health "14") (armor "0") (hitgroup "stomach")
+L 10/08/2005 - 01:34:50: "INELUKI<6><STEAM_ID_LAN><TERRORIST>" attacked "kewl-deus<3><STEAM_ID_LAN><CT>" with "ak47" (damage "43") (damage_armor "0") (health "0") (armor "0") (hitgroup "stomach")
+L 10/08/2005 - 01:34:50: "INELUKI<6><STEAM_ID_LAN><TERRORIST>" killed "kewl-deus<3><STEAM_ID_LAN><CT>" with "ak47"
+L 10/08/2005 - 01:34:50: Team "TERRORIST" triggered "Terrorists_Win" (CT "0") (T "10")
+L 10/08/2005 - 01:34:50: Team "CT" scored "0" with "2" players
+L 10/08/2005 - 01:34:50: Team "TERRORIST" scored "10" with "3" players
+L 10/08/2005 - 01:34:50: World triggered "Round_End"
+L 10/08/2005 - 01:35:01: World triggered "Round_Start"
+L 10/08/2005 - 01:35:02: Log file closed

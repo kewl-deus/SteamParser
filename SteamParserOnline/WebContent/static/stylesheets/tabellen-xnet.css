@@ -1,0 +1,99 @@
+/* ************************************************ */
+	/* ********** Tabellenkopf ************************ */
+.tabellenkopf {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: 600;
+	color: #FFFFFF;
+	background-color: #094392;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 6px;
+	padding-right: 6px;
+}
+
+/* ************************************************ */
+	/* ********** Tabellentitel für Zeilen mit ungrader Zeilennummer */
+.tabellentitelUngrade {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: 600;
+	color: #333333;
+	background-color: #A7DCBC;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 6px;
+	padding-right: 6px;
+}
+
+/* ************************************************ */
+	/* ********** Tabellentitel für Zeilen mit grader Zeilennummer */
+.tabellentitelGrade {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: 600;
+	color: #333333;
+	background-color: #84C9A2;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 6px;
+	padding-right: 6px;
+}
+
+/* ************************************************ */
+	/* ********** Datenzellen mit Standardtext ******** */
+	/* ************************************************ */
+	/* ********** Tabellenzelle für Zeilen mit ungrader Zeilennummer */
+.tabellenzelleUngrade {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	background-color: #D0DCFF;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 6px;
+	padding-right: 6px;
+}
+
+/* ************************************************ */
+	/* ********** Tabellenzelle für Zeilen mit grader Zeilennummer */
+.tabellenzelleGrade {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	background-color: #A0B0FF;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 6px;
+	padding-right: 6px;
+}
+
+/* ************************************************ */
+	/* ********** Datenzellen mit hervorgehobenem Text ******** */
+	/* ************************************************ */
+	/* ********** Tabellenzelle für Zeilen mit ungrader Zeilennummer */
+.tabellenzelleHervorgehobenUngrade {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: 600;
+	color: #333333;
+	background-color: #D0DCFF;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 6px;
+	padding-right: 6px;
+}
+
+/* ************************************************ */
+	/* ********** Tabellenzelle für Zeilen mit grader Zeilennummer */
+.tabellenzelleHervorgehobenGrade {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: 600;
+	color: #333333;
+	background-color: #A0B0FF;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 6px;
+	padding-right: 6px;
+}

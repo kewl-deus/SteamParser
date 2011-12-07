@@ -1,0 +1,120 @@
+import java_cup.runtime.*;
+import java.util.*;
+import de.dengot.hl2stats.model.*;
+
+
+parser code  {: 
+
+  public void report_error(String message, Object info)
+  {
+    StringBuffer m = new StringBuffer("Error ");
+
+    if (info instanceof java_cup.runtime.Symbol) 
+      m.append( "("+info.toString()+")" );
+     
+    m.append(" : "+message);
+   
+    System.out.println(m);
+  }
+   
+  public void report_fatal_error(String message, Object info)
+  {
+    report_error(message, info);
+    throw new RuntimeException("Fatal Syntax Error");
+  }
+  
+  protected List<Kill> kills = new ArrayList<Kill>();
+  protected List<Attack> attacks = new ArrayList<Attack>();
+  
+  void addKill(Kill k)
+  {
+  	this.kills.add(k);
+  }
+  
+  void addAttack(Attack a)
+  {
+  	this.attacks.add(a);
+  }
+  
+  public List<HL2LogEntry> getLogs()
+  {
+  	List<HL2LogEntry> logs = new ArrayList<HL2LogEntry>();
+  	logs.addAll(this.kills);
+  	logs.addAll(this.attacks);
+  	return logs;
+  }
+  
+:};
+
+terminal java.lang.Integer NUMBER;
+terminal java.lang.String STRING_LITERAL;
+terminal HEADSHOT;
+terminal ATTACKED;
+terminal KILLED;
+terminal WITH;
+terminal DAMAGE;
+terminal DAMAGE_ARMOR;
+terminal HEALTH;
+terminal ARMOR;
+terminal HITGROUP;
+terminal OPEN_BRACKET;
+terminal CLOSE_BRACKET;
+terminal java.lang.String DATE;
+terminal java.lang.String TIME;
+
+
+non terminal logentry;
+non terminal List logentries;
+non terminal Attack attack;
+non terminal Kill abstract_kill;
+non terminal Kill kill;
+non terminal Kill headshot;
+
+start with logentries;
+
+logentries ::= logentry | logentry logentries
+		{:
+		RESULT = parser.getLogs();
+		:};
+
+logentry ::= attack | abstract_kill;
+
+/*
+L 10/03/2005 - 21:42:50: "Eric<8><BOT><CT>" attacked "Harold<11><BOT><TERRORIST>" with "m3"
+(damage "25") (damage_armor "0") (health "75") (armor "0") (hitgroup "stomach")
+*/
+
+
+attack ::= DATE:date TIME:time STRING_LITERAL:attacker ATTACKED STRING_LITERAL:victim WITH STRING_LITERAL:weapon
+		OPEN_BRACKET DAMAGE STRING_LITERAL:damage CLOSE_BRACKET
+		OPEN_BRACKET DAMAGE_ARMOR STRING_LITERAL:damage_armor CLOSE_BRACKET
+		OPEN_BRACKET HEALTH STRING_LITERAL:health CLOSE_BRACKET
+		OPEN_BRACKET ARMOR STRING_LITERAL:armor CLOSE_BRACKET
+		OPEN_BRACKET HITGROUP STRING_LITERAL:hitgroup CLOSE_BRACKET
+		{:
+		RESULT = new Attack(date, time, attacker, victim, weapon,
+			 Integer.parseInt(damage), Integer.parseInt(damage_armor),
+			 Integer.parseInt(health), Integer.parseInt(armor), hitgroup);
+		parser.addAttack(RESULT);
+		:};
+
+/*
+L 10/03/2005 - 21:41:49: "Eric<8><BOT><CT>" killed "Keith<4><BOT><TERRORIST>" with "usp"
+L 10/03/2005 - 21:43:54: "Irving<10><BOT><CT>" killed "Harold<11><BOT><TERRORIST>" with "tmp" (headshot)
+*/
+
+abstract_kill ::= kill | headshot;
+
+kill ::= DATE:date TIME:time STRING_LITERAL:attacker KILLED STRING_LITERAL:victim WITH STRING_LITERAL:weapon
+		{:
+		RESULT = new Kill(date, time, attacker, victim, weapon);
+		parser.addKill(RESULT);
+		:};
+		
+		
+headshot ::= kill:k OPEN_BRACKET HEADSHOT CLOSE_BRACKET
+		{:
+		RESULT = (Kill) k;
+		RESULT.setHeadshot(true);
+		parser.addKill(RESULT);
+		:};

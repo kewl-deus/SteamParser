@@ -1,0 +1,85 @@
+L 10/07/2005 - 21:06:22: Log file started (file "logs\L1007009.log") (game "d:\steam\steamapps\janiwe\source dedicated server\cstrike") (version "2516")
+L 10/07/2005 - 21:06:22: World triggered "Round_Start"
+L 10/07/2005 - 21:06:28: World triggered "Round_Start"
+L 10/07/2005 - 21:06:34: "INELUKI<33><STEAM_ID_LAN><>" entered the game
+L 10/07/2005 - 21:06:37: "Obelix<26><STEAM_ID_LAN><>" entered the game
+L 10/07/2005 - 21:06:39: "kewl-deus<18><STEAM_ID_LAN><>" entered the game
+L 10/07/2005 - 21:06:42: "Neothorn<3><STEAM_ID_LAN><>" entered the game
+L 10/07/2005 - 21:06:46: "Obelix<26><STEAM_ID_LAN><Unassigned>" joined team "Spectator"
+L 10/07/2005 - 21:06:48: "JaNiWe<13><STEAM_ID_LAN><>" entered the game
+L 10/07/2005 - 21:15:06: "INELUKI<33><STEAM_ID_LAN><Unassigned>" joined team "TERRORIST"
+L 10/07/2005 - 21:15:06: "Kevin<39><BOT><>" connected, address "none"
+L 10/07/2005 - 21:15:06: "Kevin<39><BOT><Unassigned>" joined team "CT"
+L 10/07/2005 - 21:15:06: World triggered "Round_Draw" (CT "0") (T "0")
+L 10/07/2005 - 21:15:06: Team "CT" scored "0" with "1" players
+L 10/07/2005 - 21:15:06: Team "TERRORIST" scored "0" with "1" players
+L 10/07/2005 - 21:15:06: World triggered "Round_End"
+L 10/07/2005 - 21:15:06: "Kevin<39><BOT><>" entered the game
+L 10/07/2005 - 21:15:06: "Wayne<40><BOT><>" connected, address "none"
+L 10/07/2005 - 21:15:06: "Wayne<40><BOT><Unassigned>" joined team "TERRORIST"
+L 10/07/2005 - 21:15:06: World triggered "Game_Commencing"
+L 10/07/2005 - 21:15:06: "Wayne<40><BOT><>" entered the game
+L 10/07/2005 - 21:15:06: "Pat<41><BOT><>" connected, address "none"
+L 10/07/2005 - 21:15:06: "Pat<41><BOT><Unassigned>" joined team "CT"
+L 10/07/2005 - 21:15:06: "Pat<41><BOT><>" entered the game
+L 10/07/2005 - 21:15:07: "Nick<42><BOT><>" connected, address "none"
+L 10/07/2005 - 21:15:07: "Nick<42><BOT><Unassigned>" joined team "TERRORIST"
+L 10/07/2005 - 21:15:07: "Nick<42><BOT><>" entered the game
+L 10/07/2005 - 21:15:07: "Colin<43><BOT><>" connected, address "none"
+L 10/07/2005 - 21:15:07: "Colin<43><BOT><Unassigned>" joined team "CT"
+L 10/07/2005 - 21:15:07: "Colin<43><BOT><>" entered the game
+L 10/07/2005 - 21:15:09: "Wayne<40><BOT><TERRORIST>" triggered "Got_The_Bomb"
+L 10/07/2005 - 21:15:12: "INELUKI<33><STEAM_ID_LAN><TERRORIST>" disconnected (reason "Disconnect by user.")
+L 10/07/2005 - 21:15:12: "Kevin<39><BOT><CT>" disconnected (reason "Kicked by Console")
+L 10/07/2005 - 21:15:12: "Wayne<40><BOT><TERRORIST>" disconnected (reason "Kicked by Console")
+L 10/07/2005 - 21:15:12: "Wayne<40><BOT><TERRORIST>" triggered "Dropped_The_Bomb"
+L 10/07/2005 - 21:15:12: "Pat<41><BOT><CT>" disconnected (reason "Kicked by Console")
+L 10/07/2005 - 21:15:12: "Colin<43><BOT><CT>" disconnected (reason "Kicked by Console")
+L 10/07/2005 - 21:15:12: "Nick<42><BOT><TERRORIST>" disconnected (reason "Kicked by Console")
+L 10/07/2005 - 21:15:12: World triggered "Round_Draw" (CT "0") (T "0")
+L 10/07/2005 - 21:15:12: Team "CT" scored "0" with "0" players
+L 10/07/2005 - 21:15:12: Team "TERRORIST" scored "0" with "0" players
+L 10/07/2005 - 21:15:12: World triggered "Round_End"
+L 10/07/2005 - 21:15:15: World triggered "Round_Start"
+L 10/07/2005 - 21:15:16: "JaNiWe<13><STEAM_ID_LAN><Unassigned>" joined team "TERRORIST"
+L 10/07/2005 - 21:15:16: "Calvin<44><BOT><>" connected, address "none"
+L 10/07/2005 - 21:15:16: "Calvin<44><BOT><Unassigned>" joined team "CT"
+L 10/07/2005 - 21:15:16: "Calvin<44><BOT><>" entered the game
+L 10/07/2005 - 21:15:16: "Ron<45><BOT><>" connected, address "none"
+L 10/07/2005 - 21:15:16: "Ron<45><BOT><Unassigned>" joined team "CT"
+L 10/07/2005 - 21:15:16: "Ron<45><BOT><>" entered the game
+L 10/07/2005 - 21:15:16: "Henry<46><BOT><>" connected, address "none"
+L 10/07/2005 - 21:15:16: "Henry<46><BOT><Unassigned>" joined team "TERRORIST"
+L 10/07/2005 - 21:15:16: World triggered "Game_Commencing"
+L 10/07/2005 - 21:15:16: "Henry<46><BOT><>" entered the game
+L 10/07/2005 - 21:15:16: "Shawn<47><BOT><>" connected, address "none"
+L 10/07/2005 - 21:15:16: "Shawn<47><BOT><Unassigned>" joined team "TERRORIST"
+L 10/07/2005 - 21:15:16: "Shawn<47><BOT><>" entered the game
+L 10/07/2005 - 21:15:16: "Eric<48><BOT><>" connected, address "none"
+L 10/07/2005 - 21:15:16: "Eric<48><BOT><Unassigned>" joined team "CT"
+L 10/07/2005 - 21:15:16: "Eric<48><BOT><>" entered the game
+L 10/07/2005 - 21:15:19: "Henry<46><BOT><TERRORIST>" triggered "Got_The_Bomb"
+L 10/07/2005 - 21:15:20: "Obelix<26><STEAM_ID_LAN><Spectator>" disconnected (reason "Disconnect by user.")
+L 10/07/2005 - 21:15:21: "JaNiWe<13><STEAM_ID_LAN><TERRORIST>" disconnected (reason "Disconnect by user.")
+L 10/07/2005 - 21:15:21: "Calvin<44><BOT><CT>" disconnected (reason "Kicked by Console")
+L 10/07/2005 - 21:15:21: "Henry<46><BOT><TERRORIST>" disconnected (reason "Kicked by Console")
+L 10/07/2005 - 21:15:21: "Henry<46><BOT><TERRORIST>" triggered "Dropped_The_Bomb"
+L 10/07/2005 - 21:15:21: "Ron<45><BOT><CT>" disconnected (reason "Kicked by Console")
+L 10/07/2005 - 21:15:21: "Shawn<47><BOT><TERRORIST>" disconnected (reason "Kicked by Console")
+L 10/07/2005 - 21:15:21: "Eric<48><BOT><CT>" disconnected (reason "Kicked by Console")
+L 10/07/2005 - 21:15:21: World triggered "Round_Draw" (CT "0") (T "0")
+L 10/07/2005 - 21:15:21: Team "CT" scored "0" with "0" players
+L 10/07/2005 - 21:15:21: Team "TERRORIST" scored "0" with "0" players
+L 10/07/2005 - 21:15:21: World triggered "Round_End"
+L 10/07/2005 - 21:15:25: World triggered "Round_Start"
+L 10/07/2005 - 21:15:32: World triggered "Round_Start"
+L 10/07/2005 - 21:16:21: "kewl-deus<18><STEAM_ID_LAN><Unassigned>" joined team "Spectator"
+L 10/07/2005 - 21:16:23: "kewl-deus<18><STEAM_ID_LAN><Spectator>" disconnected (reason "Disconnect by user.")
+L 10/07/2005 - 21:16:23: World triggered "Round_Draw" (CT "0") (T "0")
+L 10/07/2005 - 21:16:23: Team "CT" scored "0" with "0" players
+L 10/07/2005 - 21:16:23: Team "TERRORIST" scored "0" with "0" players
+L 10/07/2005 - 21:16:23: World triggered "Round_End"
+L 10/07/2005 - 21:16:34: World triggered "Round_Start"
+L 10/07/2005 - 21:16:43: "Neothorn<3><STEAM_ID_LAN><>" disconnected (reason "Server shutting down")
+L 10/07/2005 - 21:16:43: server_message: "quit"
+L 10/07/2005 - 21:16:43: Log file closed

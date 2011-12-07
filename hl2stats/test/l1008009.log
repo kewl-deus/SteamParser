@@ -1,0 +1,39 @@
+L 10/08/2005 - 02:33:15: Log file started (file "logs\L1008009.log") (game "d:\steam\steamapps\janiwe\source dedicated server\cstrike") (version "2516")
+L 10/08/2005 - 02:33:15: World triggered "Round_Start"
+L 10/08/2005 - 02:33:21: World triggered "Round_Start"
+L 10/08/2005 - 02:33:36: "Neothorn<2><STEAM_ID_LAN><>" entered the game
+L 10/08/2005 - 02:33:36: "kewl-deus<3><STEAM_ID_LAN><>" entered the game
+L 10/08/2005 - 02:33:37: "INELUKI<6><STEAM_ID_LAN><>" entered the game
+L 10/08/2005 - 02:33:44: "Obelix<11><STEAM_ID_LAN><>" entered the game
+L 10/08/2005 - 02:33:50: "JaNiWe<9><STEAM_ID_LAN><>" entered the game
+L 10/08/2005 - 02:34:12: "kewl-deus<3><STEAM_ID_LAN><Unassigned>" joined team "Spectator"
+L 10/08/2005 - 02:34:19: "kewl-deus<3><STEAM_ID_LAN><Spectator>" disconnected (reason "Disconnect by user.")
+L 10/08/2005 - 02:34:19: World triggered "Round_Draw" (CT "0") (T "0")
+L 10/08/2005 - 02:34:19: Team "CT" scored "0" with "0" players
+L 10/08/2005 - 02:34:19: Team "TERRORIST" scored "0" with "0" players
+L 10/08/2005 - 02:34:19: World triggered "Round_End"
+L 10/08/2005 - 02:34:30: World triggered "Round_Start"
+L 10/08/2005 - 02:34:47: "Obelix<11><STEAM_ID_LAN><Unassigned>" joined team "CT"
+L 10/08/2005 - 02:34:52: "INELUKI<6><STEAM_ID_LAN><Unassigned>" joined team "CT"
+L 10/08/2005 - 02:34:52: "Obelix<11><STEAM_ID_LAN><CT>" disconnected (reason "Disconnect by user.")
+L 10/08/2005 - 02:34:57: "INELUKI<6><STEAM_ID_LAN><CT>" disconnected (reason "Disconnect by user.")
+L 10/08/2005 - 02:34:57: World triggered "Round_Draw" (CT "0") (T "0")
+L 10/08/2005 - 02:34:57: Team "CT" scored "0" with "0" players
+L 10/08/2005 - 02:34:57: Team "TERRORIST" scored "0" with "0" players
+L 10/08/2005 - 02:34:57: World triggered "Round_End"
+L 10/08/2005 - 02:35:08: World triggered "Round_Start"
+L 10/08/2005 - 02:35:48: "Neothorn<2><STEAM_ID_LAN><Unassigned>" disconnected (reason "Disconnect by user.")
+L 10/08/2005 - 02:35:48: World triggered "Round_Draw" (CT "0") (T "0")
+L 10/08/2005 - 02:35:48: Team "CT" scored "0" with "0" players
+L 10/08/2005 - 02:35:48: Team "TERRORIST" scored "0" with "0" players
+L 10/08/2005 - 02:35:48: World triggered "Round_End"
+L 10/08/2005 - 02:35:59: World triggered "Round_Start"
+L 10/08/2005 - 02:36:30: "JaNiWe<9><STEAM_ID_LAN><Unassigned>" joined team "CT"
+L 10/08/2005 - 02:36:36: "JaNiWe<9><STEAM_ID_LAN><CT>" disconnected (reason "Disconnect by user.")
+L 10/08/2005 - 02:36:36: World triggered "Round_Draw" (CT "0") (T "0")
+L 10/08/2005 - 02:36:36: Team "CT" scored "0" with "0" players
+L 10/08/2005 - 02:36:36: Team "TERRORIST" scored "0" with "0" players
+L 10/08/2005 - 02:36:36: World triggered "Round_End"
+L 10/08/2005 - 02:36:47: World triggered "Round_Start"
+L 10/08/2005 - 02:37:44: server_message: "quit"
+L 10/08/2005 - 02:37:44: Log file closed
