@@ -135,13 +135,6 @@
 			<version>2.1.12</version>
 		</dependency>
 
-		<!-- apache commons -->
-		<dependency>
-			<groupId>commons-httpclient</groupId>
-			<artifactId>commons-httpclient</artifactId>
-			<version>3.1</version>
-		</dependency>
-
 		<!-- testing -->
 		<dependency>
 			<groupId>org.testng</groupId>
