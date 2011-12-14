@@ -1,0 +1,40 @@
+<configuration scan="false">
+
+    <!-- 
+	<appender name="ROLLINGFILE"
+		class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<append>true</append>
+		<filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+			<level>info</level>
+		</filter>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>skyrimcharacteranalyzer.%d{yyyy-MM-dd}.log.zip
+			</fileNamePattern>
+		</rollingPolicy>
+		<layout class="ch.qos.logback.classic.PatternLayout">
+			<pattern>%d{yyyy-MM-dd HH:mm:ss}, %p, %c, %t %m%n%xEx{full}</pattern>
+		</layout>
+	</appender>
+	 -->
+
+	<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+		<!--
+			<filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+			<level>trace</level> </filter>
+		-->
+		<layout class="ch.qos.logback.classic.PatternLayout">
+			<pattern>%d{yyyy-MM-dd HH:mm:ss}, %p, %t, %c.%M : %m%n</pattern>
+		</layout>
+	</appender>
+
+	<!--
+		adjust the level to your log granularity (TRACE, DEBUG, INFO, WARN,
+		ERROR, ALL or OFF)
+	-->
+	<root level="TRACE">
+		<appender-ref ref="STDOUT" />
+	</root>
+
+	<logger name="de.dengot.steamcommunityclient.parser" level="TRACE" />
+
+</configuration>

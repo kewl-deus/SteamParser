@@ -11,11 +11,11 @@ import de.dengot.steamcommunityclient.SteamCommunityClient;
 
 public class TestSteamCommunityClient {
 
-	@Test
-	public void testGetSkyrimPlayerStats() throws IOException{
+	@Test(enabled = false)
+	public void testGetSkyrimPlayerStats() throws IOException {
 		SteamCommunityClient client = new SteamCommunityClient();
 		Playerstats playerstats = client.getPlayerstats("kewl-deus", "TheElderScrollsVSkyrim");
-		
+
 		assertEquals(playerstats.getGame().getGameName(), "The Elder Scrolls V: Skyrim");
 	}
 }

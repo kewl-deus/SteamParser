@@ -10,13 +10,21 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.text.MessageFormat;
 
+import org.slf4j.ext.XLogger;
+import org.slf4j.ext.XLoggerFactory;
+
 import de.dengot.steamcommunityclient.parser.PlayerstatsParser;
 
 public class SteamCommunityClient {
 
+	private static final XLogger LOGGER = XLoggerFactory.getXLogger(SteamCommunityClient.class);
+	
 	public Playerstats getPlayerstats(String steamProfileName, String gameName) throws IOException {
 		String rawLink = "http://steamcommunity.com/id/{0}/stats/{1}/?xml=1";
 		String link = MessageFormat.format(rawLink, steamProfileName, gameName);
+		
+		LOGGER.trace("Requesting {}", link);
+		
 		try {
 			URL url = new URL(link);
 			

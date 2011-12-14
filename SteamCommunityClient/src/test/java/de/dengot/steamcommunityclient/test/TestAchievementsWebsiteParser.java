@@ -18,17 +18,16 @@ import de.dengot.steamcommunityclient.parser.AchievementsWebsiteParser;
 
 public class TestAchievementsWebsiteParser {
 
-	
-	@Test
-	public void testParsing() throws Exception{
+	@Test(enabled = false)
+	public void testParsing() throws Exception {
 		InputStream input = getClass().getResourceAsStream("/sampledata/SkyrimSteamGlobalAchievements.xhtml");
 		Document document = buildTidyDom(input);
 		AchievementsWebsiteParser parser = new AchievementsWebsiteParser();
 		parser.parseDescriptions(document);
 		parser.parseImages(document);
 	}
-	
-	private Document buildDom(InputStream is) throws Exception{
+
+	private Document buildDom(InputStream is) throws Exception {
 		DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
 		factory.setFeature("http://apache.org/xml/features/nonvalidating/load-dtd-grammar", false);
 		factory.setFeature("http://apache.org/xml/features/nonvalidating/load-external-dtd", false);
@@ -36,7 +35,7 @@ public class TestAchievementsWebsiteParser {
 		Document doc = builder.parse(is);
 		return doc;
 	}
-	
+
 	private Document buildTidyDom(InputStream in) throws Exception {
 		Tidy tidy = new Tidy();
 		tidy.setQuiet(true);
@@ -57,18 +56,17 @@ public class TestAchievementsWebsiteParser {
 			script.getParentNode().removeChild(script);
 		}
 	}
-	
 
 	static class NullOutputStream extends OutputStream {
 
 		@Override
 		public void write(int b) throws IOException {
 		}
-		
+
 		@Override
 		public void write(byte[] b) throws IOException {
 		}
-		
+
 		@Override
 		public void write(byte[] b, int off, int len) throws IOException {
 		}
