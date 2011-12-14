@@ -4,3 +4,4 @@ test-classes
 target
 .deployables
 test-output
+temp-testng*.*

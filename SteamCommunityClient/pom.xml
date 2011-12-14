@@ -149,6 +149,13 @@
 			<version>6.1.1</version>
 			<scope>test</scope>
 		</dependency>
+
+		<dependency>
+			<groupId>jtidy</groupId>
+			<artifactId>jtidy</artifactId>
+			<version>4aug2000r7-dev</version>
+			<scope>test</scope>
+		</dependency>
 	</dependencies>
 
 </project>
