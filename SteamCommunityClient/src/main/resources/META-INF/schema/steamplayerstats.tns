@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema targetNamespace="http://steamcommunity.com/stats"
+	xmlns:tns="http://steamcommunity.com/stats" elementFormDefault="qualified"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jaxb="http://java.sun.com/xml/ns/jaxb"
+	jaxb:version="2.0" xmlns:xjc="http://java.sun.com/xml/ns/jaxb/xjc"
+	jaxb:extensionBindingPrefixes="xjc">
+	<xs:element name="playerstats">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="privacyState" type="xs:string" />
+				<xs:element name="visibilityState" type="xs:unsignedByte" />
+				<xs:element name="game" type="tns:Game" />
+				<xs:element name="player" type="tns:Player" />
+				<xs:element name="stats">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="hoursPlayed" type="xs:decimal" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="achievements">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element maxOccurs="unbounded" name="achievement"
+								type="tns:Achievement" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:complexType name="Player">
+		<xs:sequence>
+			<xs:element name="steamID64" type="xs:unsignedLong" />
+			<xs:element name="customURL" type="xs:string" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="Game">
+		<xs:sequence>
+			<xs:element name="gameFriendlyName" type="xs:string" />
+			<xs:element name="gameName" type="xs:string" />
+			<xs:element name="gameLink" type="xs:string" />
+			<xs:element name="gameIcon" type="xs:string" />
+			<xs:element name="gameLogo" type="xs:string" />
+			<xs:element name="gameLogoSmall" type="xs:string" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="Achievement">
+		<xs:sequence>
+			<xs:element name="iconClosed" type="xs:string" />
+			<xs:element name="iconOpen" type="xs:string" />
+			<xs:element name="name" type="xs:string" />
+			<xs:element name="apiname" type="xs:string" />
+			<xs:element name="description" type="xs:string" />
+			<xs:element minOccurs="0" name="unlockTimestamp" type="xs:unsignedInt" />
+		</xs:sequence>
+		<xs:attribute name="closed" type="xs:unsignedByte" use="required" />
+	</xs:complexType>
+</xs:schema>

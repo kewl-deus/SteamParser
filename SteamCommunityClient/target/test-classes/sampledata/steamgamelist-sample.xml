@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gamesList>
+	<steamID64>76561197963574585</steamID64>
+	<steamID><![CDATA[kewl-deus]]></steamID>
+	<games>
+		<game>
+			<appID>72850</appID>
+			<name><![CDATA[The Elder Scrolls V: Skyrim]]></name>
+			<logo><![CDATA[http://media.steampowered.com/steamcommunity/public/images/apps/72850/c5af3cde13610fca25cd17634a96d72487d21e74.jpg]]></logo>
+			<storeLink><![CDATA[http://store.steampowered.com/app/72850]]></storeLink>
+			<hoursLast2Weeks>44.3</hoursLast2Weeks>
+			<hoursOnRecord>157.1</hoursOnRecord>
+			<statsLink><![CDATA[http://steamcommunity.com/id/kewl-deus/stats/TheElderScrollsVSkyrim]]></statsLink>
+			<globalStatsLink><![CDATA[http://steamcommunity.com/stats/TheElderScrollsVSkyrim/achievements/]]></globalStatsLink>
+		</game>
+		<game>
+			<appID>10180</appID>
+			<name><![CDATA[Call of Duty: Modern Warfare 2]]></name>
+			<logo><![CDATA[http://media.steampowered.com/steamcommunity/public/images/apps/10180/82de30354cb5ee352609c47ea47b86797008e436.jpg]]></logo>
+			<storeLink><![CDATA[http://store.steampowered.com/app/10180]]></storeLink>
+			<hoursOnRecord>7.4</hoursOnRecord>
+			<statsLink><![CDATA[http://steamcommunity.com/id/kewl-deus/stats/ModernWarfare2]]></statsLink>
+			<globalStatsLink><![CDATA[http://steamcommunity.com/stats/ModernWarfare2/achievements/]]></globalStatsLink>
+		</game>
+		<game>
+			<appID>10190</appID>
+			<name><![CDATA[Call of Duty: Modern Warfare 2 - Multiplayer]]></name>
+			<logo><![CDATA[http://media.steampowered.com/steamcommunity/public/images/apps/10190/070cad064b3a81d6ede0f6054d9eb763004a07e0.jpg]]></logo>
+			<storeLink><![CDATA[http://store.steampowered.com/app/10190]]></storeLink>
+		</game>
+		<game>
+			<appID>240</appID>
+			<name><![CDATA[Counter-Strike: Source]]></name>
+			<logo><![CDATA[http://media.steampowered.com/steamcommunity/public/images/apps/240/ee97d0dbf3e5d5d59e69dc20b98ed9dc8cad5283.jpg]]></logo>
+			<storeLink><![CDATA[http://store.steampowered.com/app/240]]></storeLink>
+			<hoursOnRecord>22.5</hoursOnRecord>
+			<statsLink><![CDATA[http://steamcommunity.com/id/kewl-deus/stats/CS:S]]></statsLink>
+			<globalStatsLink><![CDATA[http://steamcommunity.com/stats/CS:S/achievements/]]></globalStatsLink>
+		</game>
+		<game>
+			<appID>260</appID>
+			<name><![CDATA[Counter-Strike: Source Beta]]></name>
+			<logo><![CDATA[http://media.steampowered.com/steamcommunity/public/images/apps/260/0c97784bee7eb45f0c11005446218f0b179f3d9a.jpg]]></logo>
+			<storeLink><![CDATA[http://store.steampowered.com/app/260]]></storeLink>
+			<statsLink><![CDATA[http://steamcommunity.com/id/kewl-deus/stats/CS:SBeta]]></statsLink>
+			<globalStatsLink><![CDATA[http://steamcommunity.com/stats/CS:SBeta/achievements/]]></globalStatsLink>
+		</game>
+		<game>
+			<appID>57900</appID>
+			<name><![CDATA[Duke Nukem Forever]]></name>
+			<logo><![CDATA[http://media.steampowered.com/steamcommunity/public/images/apps/57900/a8d1246ad6962f0bfe9f59b1a314fcf53e712fd3.jpg]]></logo>
+			<storeLink><![CDATA[http://store.steampowered.com/app/57900]]></storeLink>
+			<hoursOnRecord>1.7</hoursOnRecord>
+			<statsLink><![CDATA[http://steamcommunity.com/id/kewl-deus/stats/DukeNukemForever]]></statsLink>
+			<globalStatsLink><![CDATA[http://steamcommunity.com/stats/DukeNukemForever/achievements/]]></globalStatsLink>
+		</game>
+		<game>
+			<appID>220</appID>
+			<name><![CDATA[Half-Life 2]]></name>
+			<logo><![CDATA[http://media.steampowered.com/steamcommunity/public/images/apps/220/e4ad9cf1b7dc8475c1118625daf9abd4bdcbcad0.jpg]]></logo>
+			<storeLink><![CDATA[http://store.steampowered.com/app/220]]></storeLink>
+			<hoursOnRecord>0.1</hoursOnRecord>
+			<statsLink><![CDATA[http://steamcommunity.com/id/kewl-deus/stats/HL2]]></statsLink>
+			<globalStatsLink><![CDATA[http://steamcommunity.com/stats/HL2/achievements/]]></globalStatsLink>
+		</game>
+		<game>
+			<appID>320</appID>
+			<name><![CDATA[Half-Life 2: Deathmatch]]></name>
+			<logo><![CDATA[http://media.steampowered.com/steamcommunity/public/images/apps/320/6dd9f66771300f2252d411e50739a1ceae9e5b30.jpg]]></logo>
+			<storeLink><![CDATA[http://store.steampowered.com/app/320]]></storeLink>
+			<hoursOnRecord>0.1</hoursOnRecord>
+		</game>
+		<game>
+			<appID>380</appID>
+			<name><![CDATA[Half-Life 2: Episode One]]></name>
+			<logo><![CDATA[http://media.steampowered.com/steamcommunity/public/images/apps/380/b5a666a961d8b39896887abbed3b78c2b837c238.jpg]]></logo>
+			<storeLink><![CDATA[http://store.steampowered.com/app/380]]></storeLink>
+			<statsLink><![CDATA[http://steamcommunity.com/id/kewl-deus/stats/HL2:EP1]]></statsLink>
+			<globalStatsLink><![CDATA[http://steamcommunity.com/stats/HL2:EP1/achievements/]]></globalStatsLink>
+		</game>
+		<game>
+			<appID>340</appID>
+			<name><![CDATA[Half-Life 2: Lost Coast]]></name>
+			<logo><![CDATA[http://media.steampowered.com/steamcommunity/public/images/apps/340/867cce5c4f37d5ed4aeffb57c60e220ddffe4134.jpg]]></logo>
+			<storeLink><![CDATA[http://store.steampowered.com/app/340]]></storeLink>
+		</game>
+		<game>
+			<appID>360</appID>
+			<name><![CDATA[Half-Life Deathmatch: Source]]></name>
+			<logo><![CDATA[http://media.steampowered.com/steamcommunity/public/images/apps/360/9a5b7119d4e8977fffcd370d3c24036be7cee904.jpg]]></logo>
+			<storeLink><![CDATA[http://store.steampowered.com/app/360]]></storeLink>
+		</game>
+		<game>
+			<appID>32460</appID>
+			<name><![CDATA[Monkey Island 2: Special Edition]]></name>
+			<logo><![CDATA[http://media.steampowered.com/steamcommunity/public/images/apps/32460/520648565e99a6a8afa4f92a55dc4a3d39400768.jpg]]></logo>
+			<storeLink><![CDATA[http://store.steampowered.com/app/32460]]></storeLink>
+			<hoursOnRecord>6.8</hoursOnRecord>
+			<statsLink><![CDATA[http://steamcommunity.com/id/kewl-deus/stats/MonkeyIsland2:SE]]></statsLink>
+			<globalStatsLink><![CDATA[http://steamcommunity.com/stats/MonkeyIsland2:SE/achievements/]]></globalStatsLink>
+		</game>
+		<game>
+			<appID>400</appID>
+			<name><![CDATA[Portal]]></name>
+			<logo><![CDATA[http://media.steampowered.com/steamcommunity/public/images/apps/400/4184d4c0d915bd3a45210667f7b25361352acd8f.jpg]]></logo>
+			<storeLink><![CDATA[http://store.steampowered.com/app/400]]></storeLink>
+			<hoursOnRecord>0.1</hoursOnRecord>
+			<statsLink><![CDATA[http://steamcommunity.com/id/kewl-deus/stats/Portal]]></statsLink>
+			<globalStatsLink><![CDATA[http://steamcommunity.com/stats/Portal/achievements/]]></globalStatsLink>
+		</game>
+		<game>
+			<appID>440</appID>
+			<name><![CDATA[Team Fortress 2]]></name>
+			<logo><![CDATA[http://media.steampowered.com/steamcommunity/public/images/apps/440/07385eb55b5ba974aebbe74d3c99626bda7920b8.jpg]]></logo>
+			<storeLink><![CDATA[http://store.steampowered.com/app/440]]></storeLink>
+			<hoursOnRecord>0.3</hoursOnRecord>
+			<statsLink><![CDATA[http://steamcommunity.com/id/kewl-deus/stats/TF2]]></statsLink>
+			<globalStatsLink><![CDATA[http://steamcommunity.com/stats/TF2/achievements/]]></globalStatsLink>
+		</game>
+		<game>
+			<appID>13210</appID>
+			<name><![CDATA[Unreal Tournament 3: Black Edition]]></name>
+			<logo><![CDATA[http://media.steampowered.com/steamcommunity/public/images/apps/13210/ba0a5c14642ab3337bf09d1d3df5e076a771ee32.jpg]]></logo>
+			<storeLink><![CDATA[http://store.steampowered.com/app/13210]]></storeLink>
+			<hoursOnRecord>0.4</hoursOnRecord>
+			<statsLink><![CDATA[http://steamcommunity.com/id/kewl-deus/stats/UnrealTournament3]]></statsLink>
+			<globalStatsLink><![CDATA[http://steamcommunity.com/stats/UnrealTournament3/achievements/]]></globalStatsLink>
+		</game>
+	</games>
+</gamesList>

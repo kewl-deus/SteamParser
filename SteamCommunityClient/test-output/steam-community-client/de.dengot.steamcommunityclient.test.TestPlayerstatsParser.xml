@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="de.dengot.steamcommunityclient.test.TestPlayerstatsParser" failures="0" tests="1" time="0.499" errors="0">
+  <properties/>
+  <testcase name="testParsing" time="0.499" classname="de.dengot.steamcommunityclient.test.TestPlayerstatsParser"/>
+</testsuite>
