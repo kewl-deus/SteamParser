@@ -1,6 +1,6 @@
 package de.dengot.steamcommunityclient.parser;
 
-import generated.Playerstats;
+import generated.GamesList;
 
 import java.io.Reader;
 
@@ -11,23 +11,24 @@ import javax.xml.bind.Unmarshaller;
 import org.slf4j.ext.XLogger;
 import org.slf4j.ext.XLoggerFactory;
 
-public class PlayerstatsParser {
-    private static final XLogger LOGGER = XLoggerFactory.getXLogger(PlayerstatsParser.class);
+public class GamesListParser {
 
-    public Playerstats parse(Reader reader) {
+    private static final XLogger LOGGER = XLoggerFactory.getXLogger(GamesListParser.class);
+
+    public GamesList parse(Reader reader) {
         LOGGER.entry();
-        Playerstats playerstats = null;
+        GamesList gamesList = null;
         try {
-            String packageName = Playerstats.class.getPackage().getName();
+            String packageName = GamesList.class.getPackage().getName();
             JAXBContext jc = JAXBContext.newInstance(packageName);
             Unmarshaller u = jc.createUnmarshaller();
 
-            playerstats = (Playerstats) u.unmarshal(reader);
+            gamesList = (GamesList) u.unmarshal(reader);
 
-            LOGGER.exit(playerstats);
+            LOGGER.exit(gamesList);
         } catch (JAXBException e) {
             throw new RuntimeException("Parsing xml data failed: XML-Binding-Error", e);
         }
-        return playerstats;
+        return gamesList;
     }
 }
