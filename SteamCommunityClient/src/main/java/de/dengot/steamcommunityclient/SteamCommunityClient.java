@@ -2,6 +2,8 @@ package de.dengot.steamcommunityclient;
 
 import generated.GamesList;
 import generated.Playerstats;
+import generated.GamesList.Games.Game;
+import generated.Playerstats.Achievements.Achievement;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -14,10 +16,13 @@ import java.net.SocketAddress;
 import java.net.URL;
 import java.net.URLConnection;
 import java.text.MessageFormat;
+import java.util.Calendar;
 
 import org.slf4j.ext.XLogger;
 import org.slf4j.ext.XLoggerFactory;
 
+import de.dengot.steamcommunityclient.model.PlayerProfile;
+import de.dengot.steamcommunityclient.model.SteamGame;
 import de.dengot.steamcommunityclient.parser.GamesListParser;
 import de.dengot.steamcommunityclient.parser.PlayerstatsParser;
 
@@ -36,7 +41,32 @@ public class SteamCommunityClient {
         this.proxy = new Proxy(Proxy.Type.HTTP, addr);
     }
 
-    public Playerstats getPlayerstats(long steamID64, String gameName) {
+    public PlayerProfile getPlayerProfile(long steamID64, String gameName) {
+
+        Playerstats playerstats = getPlayerstats(steamID64, gameName);
+        GamesList gamesList = getGamesList(steamID64);
+
+        Game game = findGame(gamesList, playerstats.getGame().getGameName());
+        SteamGame steamGame =
+                new SteamGame(game.getAppID(), playerstats.getGame().getGameFriendlyName(),
+                        playerstats.getGame().getGameName());
+
+        PlayerProfile playerProfile =
+                new PlayerProfile(steamID64, gamesList.getSteamID(), steamGame);
+
+        playerProfile.setPlaytime(game.getHoursOnRecord().doubleValue());
+
+        for (Achievement achieve : playerstats.getAchievements().getAchievement()) {
+            if (achieve.getClosed() == 1) {
+                playerProfile.addAchievement(achieve.getApiname(), toDate(achieve
+                        .getUnlockTimestamp()));
+            }
+        }
+
+        return playerProfile;
+    }
+
+    private Playerstats getPlayerstats(long steamID64, String gameName) {
         try {
             String rawLink = "http://steamcommunity.com/profiles/{0,number,0}/stats/{1}/?xml=1";
             String link = MessageFormat.format(rawLink, steamID64, gameName);
@@ -49,7 +79,7 @@ public class SteamCommunityClient {
         }
     }
 
-    public Playerstats getPlayerstats(String steamProfileName, String gameName) {
+    private Playerstats getPlayerstats(String steamProfileName, String gameName) {
         try {
             String rawLink = "http://steamcommunity.com/id/{0}/stats/{1}/?xml=1";
             String link = MessageFormat.format(rawLink, steamProfileName, gameName);
@@ -70,7 +100,7 @@ public class SteamCommunityClient {
         return playerstats;
     }
 
-    public GamesList getGamesList(String steamProfileName) {
+    private GamesList getGamesList(String steamProfileName) {
         try {
             String rawLink = "http://steamcommunity.com/id/{0}/games/?xml=1";
             String link = MessageFormat.format(rawLink, steamProfileName);
@@ -82,7 +112,7 @@ public class SteamCommunityClient {
         }
     }
 
-    public GamesList getGamesList(long steamID64) {
+    private GamesList getGamesList(long steamID64) {
         try {
             String rawLink = "http://steamcommunity.com/profiles/{0,number,0}/games/?xml=1";
             String link = MessageFormat.format(rawLink, steamID64);
@@ -112,4 +142,20 @@ public class SteamCommunityClient {
         }
         return reader;
     }
+
+    private Calendar toDate(long steamTimestamp) {
+        Calendar cal = Calendar.getInstance();
+        cal.setTimeInMillis(steamTimestamp * 1000);
+        return cal;
+    }
+
+    private Game findGame(GamesList gamesList, String gameTitle) {
+        for (Game game : gamesList.getGames().getGame()) {
+            if (game.getName().equals(gameTitle)) {
+                return game;
+            }
+        }
+        return null;
+    }
+
 }
